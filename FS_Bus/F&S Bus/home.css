@@ -1,0 +1,209 @@
+body{
+    margin:0;
+    background-image:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),
+    url("images/Bus_background.PNG");
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+}
+
+.navigation_bar{
+    height:100px;
+    width:100%;
+    background-color: orange;
+    margin-right:100px;
+    padding:10px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width:100px;
+    margin-left:75px;
+    cursor:pointer;
+}
+.navigation_bar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 30px;
+}
+.navigation_bar ul li a{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    text-transform: uppercase;
+}
+
+h5{
+    color:black;
+    font-size:18px
+}
+
+
+a{
+    font-size:15px;
+    color:black;
+    text-decoration:none;
+}
+.navigation_bar ul li a:hover{
+    color: darkred;
+}
+
+.why{
+    background-color: rgb(255, 204, 153);
+    margin-top:470px
+}
+
+.price{
+    background-color: rgba(255, 204, 153);
+}
+
+.price table{
+    border-collapse:collapse;
+}
+
+.price td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size:20px
+}
+
+.price td p{
+    font-family: Verdana;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.why_image{
+    width:125px;
+    margin-top:15px
+}
+
+
+
+
+h1,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase
+}
+
+h2{
+    font-size: 30px;
+    margin-right:300px;
+    color:white
+}
+
+h4{
+    font-size: 40px;
+    color:black;
+}
+select{
+    height:50px;
+    width:200px;
+    font-size: 15px;
+    text-align:center;
+    margin: 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background:rgba(255,255,255,0.5)
+}
+
+.why table{
+    border-collapse:collapse;
+    table-layout: fixed;
+    border:2px black
+}
+
+input{
+    height:45px;
+    width:200px;
+    font-size: 15px;
+    color:black;
+    text-align:center;
+    margin: 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background:rgba(255,255,255,0.5)
+}
+
+button{
+    height:50px;
+    width:300px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background:transparent
+}
+
+button:hover{
+    background:rgba(150,150,255,0.5);
+    color:white
+}
+
+::placeholder{
+    color:black
+}
+
+.why td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size:20px
+}
+
+.why td p{
+    font-family: Verdana;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.footer{
+    background-color:orange
+}
+
+.footer table{
+    text-align:left;
+    width:100%;
+    border:1px black;
+}
+
+.footer table td{
+    text-align:left;
+}
+.footer table th{
+    height:10px;
+}
+
+.dropdown{
+    position: relative;
+  display: inline-block;
+}
+
+.dropdown-login {
+    align-items:center;
+    display: none;
+    position: absolute;
+    background-color: #A9A9A9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-login a {  
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+.dropdown:hover .dropdown-login {display: block;}
+
+.dropbtn{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    border:none;
+    text-decoration:none;
+    font-size:20px;
+    text-transform: uppercase
+}

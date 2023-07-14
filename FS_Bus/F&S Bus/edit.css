@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  margin:0;
+font-family: 'Open Sans', sans-serif;
+}
+
+.section {
+  margin-bottom: 15px;
+  width:100%;
+  float:left;
+  }
+  
+  .label {
+  float: left;
+  margin-right: 10px;
+  }
+  
+
+
+.label {
+float: left;
+margin-right: 10px;
+}
+
+.field {
+float: left;
+width:100%;
+}
+
+/* Box Style */
+* {
+box-sizing: border-box;
+}
+
+/* Add padding to containers */
+#container {
+padding: 16px;
+background-color: white;
+width:800px;
+margin:0 auto;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email], input[type=tel],  select {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+font-size:15pt;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+input[type='radio'] { 
+transform: scale(2); 
+}
+
+/* Overwrite default styles of hr */
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.btn {
+background-color: #555555;
+color: white;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 49%;
+opacity: 0.9;
+display: inline;
+}
+
+.btn:hover {
+opacity: 1;
+}
+
+.button {
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #e7e7e7;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:7px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+#contacts {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#contacts td, #contacts th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dropdown{
+  position: relative;
+display: inline-block;
+}
+
+.dropdown-login {
+  align-items:center;
+  display: none;
+  position: absolute;
+  background-color: #A9A9A9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-login a {  
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-login {display: block;}
+
+.dropbtn{
+  font-family:'Times New Roman', Times, serif;
+  border:none;
+  text-decoration:none;
+  font-size:20px;
+  color:white;
+  text-transform: uppercase;
+}
+
+.navigation_bar{
+  height:100px;
+  width:100%;
+  background-color: orange;
+  margin-right:100px;
+  padding:10px 0;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width:100px;
+  margin-left:75px;
+  cursor:pointer;
+}
+.navigation_bar ul li{
+  list-style:none;
+  display:inline-block;
+  margin:0 30px;
+}
+.navigation_bar ul li a{
+  text-decoration:none;
+  font-size:20px;
+  color:white;
+  text-transform: uppercase;
+}
+
+.navigation_bar ul li a:hover{
+  color: darkred;
+}
+
+
